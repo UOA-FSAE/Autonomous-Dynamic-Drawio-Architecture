@@ -1,0 +1,15 @@
+{
+  "name": "xml_formatter_project",
+  "version": "1.0.0",
+  "description": "Updates the styles of elements with the 'Implemented', 'Deprecated', 'Not_Working' and 'Planned' tags within the 'Node Architecture.drawio' file",
+  "main": "formatTags.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zane Larking",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "xmlserializer": "^0.6.1"
+  }
+}
